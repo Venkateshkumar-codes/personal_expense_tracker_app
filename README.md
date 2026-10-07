@@ -1,17 +1,22 @@
-# task2_expense_app
+# Personal Expense Tracker
 
-A new Flutter project.
+A Flutter app to track daily expenses, plan a monthly budget, forecast
+next month's spending and record money lent to friends.
 
-## Getting Started
+## Features
+- Add, edit and delete expenses (category dropdown, date picker)
+- Daily, weekly and monthly spending summary with donut chart
+- Monthly budget planner with category plan and daily allowance
+- Next month forecast based on the last 3 months
+- Lent-money tracker with repayments, due dates and overdue status
+- Data saved on the device (shared_preferences)
+- Number-only validation in the budget field
 
-This project is a starting point for a Flutter application.
+## How to run
+    flutter pub get
+    flutter run
 
-A few resources to get you started if this is your first Flutter project:
+## Build APK
+    flutter build apk --release
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Author: Venkatesh Kumar
